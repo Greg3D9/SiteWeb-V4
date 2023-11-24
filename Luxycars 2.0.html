@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxycars</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        /* CSS pour positionner la partie "Plus d'info" en bas à droite */
+        #more-info-button {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            border-radius: 10px;
+            padding: 0px;
+            font-size: 9px;
+            background-color: #1E1E1E;
+            box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+        }
+        #more-info-content {
+            position: move;
+            bottom: 10px;
+            right: 10px;
+            background-color:#1E1E1E;
+            padding: 10px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">       
+        <h1>Saisir le Mot de Passe et Utilisateur</h1>
+
+        <input type="text" id="username" placeholder="Entrez votre nom d'utilisateur" required>
+
+        <div Align="left"><span id="username-error" class="error-message"></span></div>
+
+        <input type="password" id="password" placeholder="Entrez votre mot de passe" required>
+
+        <div Align="left"><span id="password-error" class="error-message"></span></div>
+        
+        <button type="button" id="submit">Se connecter</button>
+    </div>
+
+    <button id="more-info-button"><p style="color: red;">Plus d'info</p></button>
+    <div id="more-info-content">
+        <!-- Contenu supplémentaire à afficher -->
+    <p style="color: red;">Allez sur le site : <a href="https://www.ecoledirecte.com/E/3140/Notes" target="_blank">https://www.ecoledirecte.com/E/3140/Notes</a></p>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
