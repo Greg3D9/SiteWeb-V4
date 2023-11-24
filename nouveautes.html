@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouveautés - Luxycars</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Styles spécifiques à la page Nouveautés */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #ff0000;
+            color: #000000;
+            padding: 20px 0;
+        }
+
+        .header-container {
+            text-align: center;
+        }
+
+        .header-container h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            background-color: #ff6600;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #ff3300;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .new-arrivals {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .car-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            text-align: center;
+        }
+
+        .car-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .car-card h3 {
+            margin: 10px 0;
+            font-size: 24px;
+        }
+
+        .car-card p {
+            color: #888;
+        }
+
+        footer {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Luxycars - Concessionnaire Auto de Luxe</h1>
+            <h2><center>Nouveautés</center></h2>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html">À propos</a></li>
+            <li><a href="nouveautes.html">Nouveautés</a></li>
+            <li><a href="Occasion.html">Véhicules d'occasion</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="new-arrivals">
+            <h2>Nouveautés</h2>
+            <div class="car-card">
+                <img src="new_car1.jpg" alt="Nouvelle Voiture 1">
+                <h3>Nouveau Modèle X</h3>
+                <p>Prix : À partir de 50 000 €</p>
+                <p>Une toute nouvelle expérience de conduite.</p>
+            </div>
+            <div class="car-card">
+                <img src="new_car2.jpg" alt="Nouvelle Voiture 2">
+                <h3>Nouveau Modèle Y</h3>
+                <p>Prix : À partir de 55 000 €</p>
+                <p>L'élégance et la performance réunies.</p>
+            </div>
+            <div class="car-card">
+                <img src="new_car3.jpg" alt="Nouvelle Voiture 3">
+                <h3>Nouveau Modèle Z</h3>
+                <p>Prix : À partir de 60 000 €</p>
+                <p>L'exclusivité à son apogée.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2023 Luxycars - Concessionnaire Auto de Luxe</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,25 @@
+/* Utilisateur*/
+#username {
+    width: 80%;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+    margin-bottom: 20px;
+    background-color: #444;
+    color: #fff;
+}
+.input-container {
+    display: flex;
+    flex-direction: row; /* Alignement horizontal */
+    align-items: center; /* Alignement vertical au centre */
+}
+
+.error-message {
+    color: #ff0000; /* Couleur rouge pour les messages d'erreur */
+    font-size: 14px;
+    display: block; /* Afficher sur une nouvelle ligne */
+    margin-top: 5px;
+    margin-left: 5px; /* Marge à gauche pour l'espacement */
+}

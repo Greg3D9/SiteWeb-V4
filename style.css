@@ -1,0 +1,136 @@
+/* Réinitialisation des marges et des rembourrages par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles de base pour le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Styles de l'en-tête */
+header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header-container h1 {
+    font-size: 36px;
+}
+
+/* Styles de la navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Styles du contenu principal */
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #000000;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0056b3;
+}
+
+.featured-cars {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.car-card {
+    background-color: #63636386;
+    border: 1px solid #63636386;
+    padding: 20px;
+    margin: 100px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #007bff;
+}
+
+.car-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.car-card h3 {
+    font-size: 24px;
+}
+
+/* Styles de la page "À propos" */
+.about-us {
+    padding: 20px;
+}
+
+/* Styles du pied de page */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
