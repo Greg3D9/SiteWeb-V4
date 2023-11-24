@@ -3,7 +3,7 @@ const passwordInput = document.getElementById("password");
 const submitButton = document.getElementById("submit");
 
 const correctUsername = "Gregoire"; // Remplacez ceci par votre nom d'utilisateur
-const correctPassword = "Greg_987"; // Remplacez ceci par votre mot de passe
+const correctPassword = "Greg_yt567"; // Remplacez ceci par votre mot de passe
 
 const usernameError = document.getElementById("username-error");
 const passwordError = document.getElementById("password-error");
